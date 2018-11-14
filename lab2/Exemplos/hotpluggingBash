@@ -1,0 +1,3 @@
+#!/bin/bash
+echo bh1750 0x23 > /sys/bus/i2c/devices/i2c-1/new_device 
+cat /sys/bus/iio/devices/iio:device0/in_illuminance_raw
